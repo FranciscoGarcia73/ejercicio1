@@ -2,8 +2,6 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 
-
-
 // VERSIÓN ASÍNCRONA:
 
 fs.readdir('./ficheros', (err, files) => {
@@ -18,6 +16,7 @@ fs.readdir('./ficheros', (err, files) => {
         });
     }
 });
+
 
 // // VERSIÓN ASÍNCRONA v2:
 
